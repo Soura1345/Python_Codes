@@ -1,4 +1,4 @@
-f = open("Chapter_9/file.txt")
+f = open("Text/file.txt")
 data = f.read()
 print(data)
 f.close()
