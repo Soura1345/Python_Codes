@@ -11,7 +11,7 @@ youDict = {"s": 1, "w": -1, "g": 0}
 reverseDict = {1: "snake", -1: "water", 0:"gun"}
 you = youDict[youStr]
 
-print(f"You choode: {reverseDict[you]}\nComputer choice: {reverseDict[computer]}")
+print(f"Your choice: {reverseDict[you]}\nComputer choice: {reverseDict[computer]}")
 
 if(computer == you):
     print("It's a draw") 
